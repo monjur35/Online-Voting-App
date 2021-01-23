@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <data>
+
+        </data>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg"
+            tools:context=".Fragmnet.CreateNewElectionFragment">
+
+
+                <EditText
+                    android:id="@+id/positionNameId"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Position Name" />
+
+                <EditText
+                    android:id="@+id/dateId"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Double tap to select date" />
+
+                <EditText
+                    android:id="@+id/startTimeId"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Double tap to select start time" />
+                <EditText
+                    android:id="@+id/endTimeId"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Double tap to select end time" />
+
+                <EditText
+                    android:id="@+id/candidate1"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="First candidate name" />
+
+                <EditText
+                    android:id="@+id/candidate2"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Second candidate name" />
+
+                <EditText
+                    android:id="@+id/candidate3"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Third candidate name" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Create"
+                    android:elevation="10dp"
+                    android:outlineAmbientShadowColor="#FF5722"
+                    android:layout_marginVertical="60dp"
+                    android:id="@+id/createBtnId" />
+
+
+        </LinearLayout>
+</layout>

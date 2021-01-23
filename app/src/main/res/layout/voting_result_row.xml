@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/rv_shape"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/positionNAmeOnAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Position Name"
+       />
+
+
+    <TableLayout
+        android:layout_below="@+id/positionNAmeOnAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:background="#FF9776"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Votes"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="#FF9776"
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/black" />
+
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/candidate1NameOnAdmin"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Candidate1 :"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_margin="3dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/candidate1TotalVoteOnAdmin"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="00 "
+                android:layout_margin="3dp"
+                android:textColor="@color/black" />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/candidate2NameinAdmin"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Candidate2 :"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_margin="3dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/candidate2totalinAdmin"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="00 "
+                android:layout_margin="3dp"
+                android:textColor="@color/black" />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/candidate3NameOnAdmin"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Candidate3 :"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_margin="3dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/candidate3TotalOnAdmin"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="00 "
+                android:layout_margin="3dp"
+                android:textColor="@color/black" />
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Total :"
+                android:textSize="18sp"
+                android:background="#FF9776"
+                android:textColor="@color/black"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/totalCountedVote"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                tools:text="00 "
+                android:background="#FF9776"
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/black" />
+
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

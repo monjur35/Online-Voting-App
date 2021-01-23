@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "717355779224",
+    "firebase_url": "https://loginlogout-aca77.firebaseio.com",
+    "project_id": "loginlogout-aca77",
+    "storage_bucket": "loginlogout-aca77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717355779224:android:e6c5bf8019f8e25f247ced",
+        "android_client_info": {
+          "package_name": "com.example.onlinevotingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717355779224-2r3d763tson2rleg6mtaeevpmeuhver1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHvr3KJRybtDYtkvySuIeXDpeP7AyDbOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717355779224-2r3d763tson2rleg6mtaeevpmeuhver1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

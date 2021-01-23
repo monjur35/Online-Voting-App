@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/mailEditText"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="15dp"
+        android:layout_height="wrap_content"
+        android:hint="abc@mail.com"
+        android:gravity="center"
+        android:textColorHint="#FFB39C"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/passEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:textColorHint="#FFB39C"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:shadowColor="@color/black"
+        android:layout_gravity="center"
+        android:id="@+id/loginAdmin"/>
+
+
+</LinearLayout>
